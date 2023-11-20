@@ -1,0 +1,9 @@
+.search {
+    margin: 10em auto;
+    text-align: center;
+}
+
+.form-control {
+    width: 10% !important;
+    display: inline;
+}
