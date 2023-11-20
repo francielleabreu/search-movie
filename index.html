@@ -10,31 +10,66 @@
     </head>
 
     <body>
-    <header data-bs-theme="dark">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">
-                            <img src="./images/logo.png" alt="Logo" width="45" height="35" class="d-inline-block align-text-top"/></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+        <header data-bs-theme="dark">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark nav-header">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+            </nav>
+        </header>
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner w-25 mx-auto my-5">
+          <div class="carousel-item active">
+            <img
+              src="./images/card-2.jpg"
+              class="d-block w-100"
+              alt="Women In TEC"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/card-2.jpg"
+              class="d-block w-100"
+              alt="Programing"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/card-2.jpg"
+              class="d-block w-100"
+              alt="UX Design"
+            />
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
 
     <div class="search">
         <h1>Search Movies</h1>
         <input id="searchInput" class="form-control me-2" type="text" placeholder="Enter movie name" aria-label="Search">
         <button onclick="searchMovies()" class="btn btn-outline-success" type="submit">Search</button>
-        <div id="result"></div>
+        <div id="result" class="m-5 p-5"></div>
     </div>            
-        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous">
+  </script>
     </body>
-
 </html>
