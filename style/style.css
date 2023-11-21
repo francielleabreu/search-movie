@@ -1,32 +1,32 @@
 .body {
-    box-sizing: border-box;
-    width: 100vw;
-    margin: 0 auto;
+  box-sizing: border-box;
+  width: 100vw;
+  margin: 0 auto;
 }
 
 .titles {
-    text-align: right;
-    margin-top: 20px;
-    color: aliceblue;
-    margin-right: 2em;
+  text-align: right;
+  margin-top: 20px;
+  color: aliceblue;
+  margin-right: 2em;
 }
 
 .nav-header {
-    min-height: 3em;
-    position: initial;
+  min-height: 3em;
+  position: initial;
 }
 
 .search {
-    margin: 1em auto;
-    text-align: center;
+  margin: 1em auto;
+  text-align: center;
 }
 
 .form-control {
-    width: 10% !important;
-    display: inline;
+  width: 10% !important;
+  display: inline;
 }
 
-.swiper {
+/* .swiper {
     width: 30%;
     height: 30%;
     margin-top: 2em;
@@ -39,47 +39,61 @@
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  display: block;
+  width: 100% !important;
+  height: auto;
+  object-fit: cover;
 }
 
 #result {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
 }
 
 .movie-card {
-    width: calc(100% / 5 - 7px * 2);
+  width: calc(100% / 5 - 7px * 2);
 }
 
 .movie-img {
-    width: 100%;
-    height: 60%;
+  width: 100%;
+  height: 60%;
 }
 
 img {
-    width: 50% !important;
+  width: 50% !important;
 }
 
 .navbar-brand img {
-    width: 15% !important;
+  width: 15% !important;
 }
 
 .movie-img img {
-    display: block;
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
+  display: block;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .navbar-brand {
-    width: 20% !important;
-    margin-left: 2em;
+  width: 20% !important;
+  margin-left: 2em;
 }
