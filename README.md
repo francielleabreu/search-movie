@@ -1,3 +1,4 @@
+![image](https://github.com/francielleabreu/search-movie/assets/106924001/060977a5-3bff-4fe2-b6f3-66c16500398d)
 <!DOCTYPE html>
 <html>
 <head>
