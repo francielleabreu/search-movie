@@ -5,7 +5,7 @@
 </head>
 <body>
     <h1>Cinema Search</h1>
-    <p>This is a web project developed as part of the Matrix Master Bootcamp in Rotterdam, the Netherlands. The goal of this project is to use an API and creat a responsive website.</p>
+    <p>This is a web project developed as part of the Matrix Master Bootcamp in Rotterdam, the Netherlands. The goal of this project is to use an API and create a responsive website.</p>
     <p>The website is a search for movies, showing the latest releases. Using the search button, you can search for a keyword and several suggestions are filtered.</p>
     <h2>Visit the Project</h2>
     <p>Check out the project in action at: <a href="https://francielleabreu.github.io/search-movie/">Cinema Search</a></p>
