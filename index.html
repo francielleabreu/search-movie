@@ -13,30 +13,34 @@
         <header data-bs-theme="dark">
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark nav-header">
                 <div class="container-fluid">
-                <a class="navbar-brand" href="#"></a>
+                <a class="navbar-brand" href="#"><img src="./images/cinema.png" alt="logo"/></a>
+                <div class="titles">
+                    <h1>Cinema Search</h1>
+                    <p><i>Discover and Explore the Magic of Cinema</i></p>  
+                </div>
             </nav>
         </header>
 
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-      </div>
-    
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div> 
 
+        <div class="search">
+            <h1>Search Movies</h1>
+            <p>Don't know what to watch? Write a keyword and we will help you with several suggestions</p>
+            <input id="searchInput" class="form-control me-2" type="text" placeholder="Enter keyword" aria-label="Search">
+            <button onclick="searchMovies()" class="btn btn-outline-success" type="submit" id="searchButton">Search</button>
+            <div id="result" class="m-5 p-5"></div>
+        </div> 
 
-    <div class="search">
-        <h1>Search Movies</h1>
-        <input id="searchInput" class="form-control me-2" type="text" placeholder="Enter movie name" aria-label="Search">
-        <button onclick="searchMovies()" class="btn btn-outline-success" type="submit" id="searchButton">Search</button>
-        <div id="result" class="m-5 p-5"></div>
-    </div>            
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="./main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="./main.js"></script>
     </body>
 </html>
