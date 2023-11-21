@@ -23,6 +23,7 @@
         <li>CSS;</li>
         <li>Bootstrap;</li>
         <li>JavaScript;</li>
+        <li>AJAX;</li>
         <li>jQuery.</li>
     </ul>
 </body>
